@@ -180,8 +180,8 @@ print(f"Parameters: {sum(t.data.size for t in mps.tensors)}")  # ~80 vs 2^20 = 1
 
 | Model | Parameters | Accuracy | Inference Time | Model Size |
 |-------|------------|----------|----------------|------------|
-| Baseline | 2,473,610 | 73.68% | 7.93 ms | 100% |
-| Compressed | 458,285 | 64.66% | 8.11 ms | 18.5% |
+| Baseline | 2,473,610 | 73.68% | 8.11 ms | 100% |
+| Compressed | 458,285 | 64.66% | 7.93 ms | 18.5% |
 | **Compression** | **5.4x** | **-9.02%** | **~1.0x** | **81.5% savings** |
 
 **Key Insights:**
